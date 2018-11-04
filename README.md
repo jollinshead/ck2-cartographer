@@ -1,3 +1,3 @@
 # pi-modding
 
-Modding tool(s) for Paradox Interactive games
+Mods and Modding tools for Paradox Interactive games
