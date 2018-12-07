@@ -1,3 +1,33 @@
+civic_gospel_of_the_masses = {
+	potential = { authority = { value = auth_corporate } }
+	random_weight = { base = 1 }
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_spiritualist
+				value = ethic_spiritualist
+				value = ethic_fanatic_spiritualist
+			}
+		}
+		civics = {
+			NOR = {
+				value = civic_mmc_materialist
+				value = civic_mmc_authoritarian
+				value = civic_mmc_egalitarian
+				value = civic_mmc_xenophobe
+				value = civic_mmc_xenophile
+				value = civic_mmc_militarist
+				value = civic_mmc_pacifist
+			}
+		}
+	}
+	modifier = {
+		pop_ethic_spiritualist_attraction_mult = 0.5
+    }
+	
+	description = "civic_tooltip_gospel_of_the_masses_effects"
+}
+
 civic_mmc_materialist = {
 	potential = { authority = { value = auth_corporate } }
 	random_weight = { base = 1 }
