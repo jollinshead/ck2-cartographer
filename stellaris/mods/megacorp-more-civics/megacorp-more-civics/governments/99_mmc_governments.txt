@@ -1,0 +1,398 @@
+
+gov_mmc_materialist = {
+	ruler_title = RT_mmc_materialist_male
+	ruler_title_female = RT_mmc_materialist_female
+	
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			leader_class = governor
+		}
+	}
+
+	possible = {
+		AND = {
+			has_authority = auth_corporate
+			has_valid_civic = civic_mmc_materialist
+		}
+	}
+
+	weight = {
+		base = 1000
+	}
+}
+
+gov_mmc_materialist_criminal = {
+	ruler_title = RT_mmc_materialist
+	
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			leader_class = governor
+		}
+	}
+
+	possible = {
+		has_authority = auth_corporate
+		has_valid_civic = civic_criminal_heritage
+		has_valid_civic = civic_mmc_materialist
+	}
+
+	weight = {
+		base = 3000
+	}
+}
+
+
+gov_mmc_authoritarian = {
+	ruler_title = RT_mmc_authoritarian_male
+	ruler_title_female = RT_mmc_authoritarian_female
+	
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			leader_class = governor
+		}
+	}
+
+	possible = {
+		AND = {
+			has_authority = auth_corporate
+			has_valid_civic = civic_mmc_authoritarian
+		}
+	}
+
+	weight = {
+		base = 1000
+	}
+}
+
+gov_mmc_authoritarian_criminal = {
+	ruler_title = RT_mmc_authoritarian
+	
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			leader_class = governor
+		}
+	}
+
+	possible = {
+		has_authority = auth_corporate
+		has_valid_civic = civic_criminal_heritage
+		has_valid_civic = civic_mmc_authoritarian
+	}
+
+	weight = {
+		base = 3000
+	}
+}
+
+
+gov_mmc_egalitarian = {
+	ruler_title = RT_mmc_egalitarian_male
+	ruler_title_female = RT_mmc_egalitarian_female
+	
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			leader_class = governor
+		}
+	}
+
+	possible = {
+		AND = {
+			has_authority = auth_corporate
+			has_valid_civic = civic_mmc_egalitarian
+		}
+	}
+
+	weight = {
+		base = 1000
+	}
+}
+
+gov_mmc_egalitarian_criminal = {
+	ruler_title = RT_mmc_egalitarian
+	
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			leader_class = governor
+		}
+	}
+
+	possible = {
+		has_authority = auth_corporate
+		has_valid_civic = civic_criminal_heritage
+		has_valid_civic = civic_mmc_egalitarian
+	}
+
+	weight = {
+		base = 3000
+	}
+}
+
+
+gov_mmc_xenophobe = {
+	ruler_title = RT_mmc_xenophobe_male
+	ruler_title_female = RT_mmc_xenophobe_female
+	
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			leader_class = governor
+		}
+	}
+
+	possible = {
+		AND = {
+			has_authority = auth_corporate
+			has_valid_civic = civic_mmc_xenophobe
+		}
+	}
+
+	weight = {
+		base = 1000
+	}
+}
+
+gov_mmc_xenophobe_criminal = {
+	ruler_title = RT_mmc_xenophobe
+	
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			leader_class = governor
+		}
+	}
+
+	possible = {
+		has_authority = auth_corporate
+		has_valid_civic = civic_criminal_heritage
+		has_valid_civic = civic_mmc_xenophobe
+	}
+
+	weight = {
+		base = 3000
+	}
+}
+
+
+gov_mmc_xenophile = {
+	ruler_title = RT_mmc_xenophile_male
+	ruler_title_female = RT_mmc_xenophile_female
+	
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			leader_class = governor
+		}
+	}
+
+	possible = {
+		AND = {
+			has_authority = auth_corporate
+			has_valid_civic = civic_mmc_xenophile
+		}
+	}
+
+	weight = {
+		base = 1000
+	}
+}
+
+gov_mmc_xenophile_criminal = {
+	ruler_title = RT_mmc_xenophile
+	
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			leader_class = governor
+		}
+	}
+
+	possible = {
+		has_authority = auth_corporate
+		has_valid_civic = civic_criminal_heritage
+		has_valid_civic = civic_mmc_xenophile
+	}
+
+	weight = {
+		base = 3000
+	}
+}
+
+
+gov_mmc_militarist = {
+	ruler_title = RT_mmc_militarist_male
+	ruler_title_female = RT_mmc_militarist_female
+	
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			leader_class = governor
+		}
+	}
+
+	possible = {
+		AND = {
+			has_authority = auth_corporate
+			has_valid_civic = civic_mmc_militarist
+		}
+	}
+
+	weight = {
+		base = 1000
+	}
+}
+
+gov_mmc_militarist_criminal = {
+	ruler_title = RT_mmc_militarist
+	
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			leader_class = governor
+		}
+	}
+
+	possible = {
+		has_authority = auth_corporate
+		has_valid_civic = civic_criminal_heritage
+		has_valid_civic = civic_mmc_militarist
+	}
+
+	weight = {
+		base = 3000
+	}
+}
+
+
+gov_mmc_pacifist = {
+	ruler_title = RT_mmc_pacifist_male
+	ruler_title_female = RT_mmc_pacifist_female
+	
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			leader_class = governor
+		}
+	}
+
+	possible = {
+		AND = {
+			has_authority = auth_corporate
+			has_valid_civic = civic_mmc_pacifist
+		}
+	}
+
+	weight = {
+		base = 1000
+	}
+}
+
+gov_mmc_pacifist_criminal = {
+	ruler_title = RT_mmc_pacifist
+	
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			leader_class = governor
+		}
+	}
+
+	possible = {
+		has_authority = auth_corporate
+		has_valid_civic = civic_criminal_heritage
+		has_valid_civic = civic_mmc_pacifist
+	}
+
+	weight = {
+		base = 3000
+	}
+}
