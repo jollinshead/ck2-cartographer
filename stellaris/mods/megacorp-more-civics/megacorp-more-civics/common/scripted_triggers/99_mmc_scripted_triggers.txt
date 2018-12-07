@@ -1,0 +1,97 @@
+prosperity_mmc_militarist_check_trigger = {
+	is_militarist = yes
+	planet = {
+		exists = owner
+		OR = {
+			owner = { has_valid_civic = civic_mmc_militarist }
+			AND = {
+				has_branch_office = yes
+				branch_office_owner = { has_valid_civic = civic_mmc_militarist }
+			}
+		}	
+	}
+}
+
+prosperity_mmc_authoritarian_check_trigger = {
+	is_authoritarian = yes
+	planet = {
+		exists = owner
+		OR = {
+			owner = { has_valid_civic = civic_mmc_authoritarian }
+			AND = {
+				has_branch_office = yes
+				branch_office_owner = { has_valid_civic = civic_mmc_authoritarian }
+			}
+		}	
+	}
+}
+
+prosperity_mmc_egalitarian_check_trigger = {
+	is_egalitarian = yes
+	planet = {
+		exists = owner
+		OR = {
+			owner = { has_valid_civic = civic_mmc_egalitarian }
+			AND = {
+				has_branch_office = yes
+				branch_office_owner = { has_valid_civic = civic_mmc_egalitarian }
+			}
+		}	
+	}
+}
+
+prosperity_mmc_xenophobe_check_trigger = {
+	is_xenophobe = yes
+	planet = {
+		exists = owner
+		OR = {
+			owner = { has_valid_civic = civic_mmc_xenophobe }
+			AND = {
+				has_branch_office = yes
+				branch_office_owner = { has_valid_civic = civic_mmc_xenophobe }
+			}
+		}	
+	}
+}
+
+prosperity_mmc_xenophile_check_trigger = {
+	is_xenophile = yes
+	planet = {
+		exists = owner
+		OR = {
+			owner = { has_valid_civic = civic_mmc_xenophile }
+			AND = {
+				has_branch_office = yes
+				branch_office_owner = { has_valid_civic = civic_mmc_xenophile }
+			}
+		}	
+	}
+}
+
+prosperity_mmc_militarist_check_trigger = {
+	is_militarist = yes
+	planet = {
+		exists = owner
+		OR = {
+			owner = { has_valid_civic = civic_mmc_militarist }
+			AND = {
+				has_branch_office = yes
+				branch_office_owner = { has_valid_civic = civic_mmc_militarist }
+			}
+		}	
+	}
+}
+
+prosperity_mmc_pacifist_check_trigger = {
+	is_pacifist = yes
+	planet = {
+		exists = owner
+		OR = {
+			owner = { has_valid_civic = civic_mmc_pacifist }
+			AND = {
+				has_branch_office = yes
+				branch_office_owner = { has_valid_civic = civic_mmc_pacifist }
+			}
+		}	
+	}
+}
