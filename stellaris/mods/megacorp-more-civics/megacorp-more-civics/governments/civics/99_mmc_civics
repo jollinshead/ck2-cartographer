@@ -1,0 +1,209 @@
+civic_mmc_materialist = {
+	potential = { authority = { value = auth_corporate } }
+	random_weight = { base = 1 }
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_materialist
+				value = ethic_materialist
+				value = ethic_fanatic_materialist
+			}
+		}
+		civics = {
+			NOR = {
+				value = civic_gospel_of_the_masses
+				value = civic_mmc_authoritarian
+				value = civic_mmc_egalitarian
+				value = civic_mmc_xenophobe
+				value = civic_mmc_xenophile
+				value = civic_mmc_militarist
+				value = civic_mmc_pacifist
+			}
+		}
+	}
+	modifier = {
+		pop_ethic_materialist_attraction_mult = 0.5
+    }
+	
+	description = "civic_tooltip_mmc_materialist_effects"
+}
+
+civic_mmc_authoritarian = {
+	potential = { authority = { value = auth_corporate } }
+	random_weight = { base = 1 }
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_authoritarian
+				value = ethic_authoritarian
+				value = ethic_fanatic_authoritarian
+			}
+		}
+		civics = {
+			NOR = {
+				value = civic_gospel_of_the_masses
+				value = civic_mmc_materialist
+				value = civic_mmc_egalitarian
+				value = civic_mmc_xenophobe
+				value = civic_mmc_xenophile
+				value = civic_mmc_militarist
+				value = civic_mmc_pacifist
+			}
+		}
+	}
+	modifier = {
+		pop_ethic_authoritarian_attraction_mult = 0.5
+    }
+	
+	description = "civic_tooltip_mmc_authoritarian_effects"
+}
+
+civic_mmc_egalitarian = {
+	potential = { authority = { value = auth_corporate } }
+	random_weight = { base = 1 }
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_egalitarian
+				value = ethic_egalitarian
+				value = ethic_fanatic_egalitarian
+			}
+		}
+		civics = {
+			NOR = {
+				value = civic_gospel_of_the_masses
+				value = civic_mmc_materialist
+				value = civic_mmc_authoritarian
+				value = civic_mmc_xenophobe
+				value = civic_mmc_xenophile
+				value = civic_mmc_militarist
+				value = civic_mmc_pacifist
+			}
+		}
+	}
+	modifier = {
+		pop_ethic_egalitarian_attraction_mult = 0.5
+    }
+	
+	description = "civic_tooltip_mmc_egalitarian_effects"
+}
+
+civic_mmc_xenophobe = {
+	potential = { authority = { value = auth_corporate } }
+	random_weight = { base = 1 }
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_xenophobe
+				value = ethic_xenophobe
+				value = ethic_fanatic_xenophobe
+			}
+		}
+		civics = {
+			NOR = {
+				value = civic_gospel_of_the_masses
+				value = civic_mmc_materialist
+				value = civic_mmc_authoritarian
+				value = civic_mmc_egalitarian
+				value = civic_mmc_xenophile
+				value = civic_mmc_militarist
+				value = civic_mmc_pacifist
+			}
+		}
+	}
+	modifier = {
+		pop_ethic_xenophobe_attraction_mult = 0.5
+    }
+	
+	description = "civic_tooltip_mmc_xenophobe_effects"
+}
+
+civic_mmc_xenophile = {
+	potential = { authority = { value = auth_corporate } }
+	random_weight = { base = 1 }
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_xenophile
+				value = ethic_xenophile
+				value = ethic_fanatic_xenophile
+			}
+		}
+		civics = {
+			NOR = {
+				value = civic_gospel_of_the_masses
+				value = civic_mmc_materialist
+				value = civic_mmc_authoritarian
+				value = civic_mmc_egalitarian
+				value = civic_mmc_xenophobe
+				value = civic_mmc_militarist
+				value = civic_mmc_pacifist
+			}
+		}
+	}
+	modifier = {
+		pop_ethic_xenophile_attraction_mult = 0.5
+    }
+	
+	description = "civic_tooltip_mmc_xenophile_effects"
+}
+
+civic_mmc_militarist = {
+	potential = { authority = { value = auth_corporate } }
+	random_weight = { base = 1 }
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_militarist
+				value = ethic_militarist
+				value = ethic_fanatic_militarist
+			}
+		}
+		civics = {
+			NOR = {
+				value = civic_gospel_of_the_masses
+				value = civic_mmc_materialist
+				value = civic_mmc_authoritarian
+				value = civic_mmc_egalitarian
+				value = civic_mmc_xenophobe
+				value = civic_mmc_xenophile
+				value = civic_mmc_pacifist
+			}
+		}
+	}
+	modifier = {
+		pop_ethic_militarist_attraction_mult = 0.5
+    }
+	
+	description = "civic_tooltip_mmc_militarist_effects"
+}
+
+civic_mmc_pacifist = {
+	potential = { authority = { value = auth_corporate } }
+	random_weight = { base = 1 }
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_pacifist
+				value = ethic_pacifist
+				value = ethic_fanatic_pacifist
+			}
+		}
+		civics = {
+			NOR = {
+				value = civic_gospel_of_the_masses
+				value = civic_mmc_materialist
+				value = civic_mmc_authoritarian
+				value = civic_mmc_egalitarian
+				value = civic_mmc_xenophobe
+				value = civic_mmc_xenophile
+				value = civic_mmc_militarist
+			}
+		}
+	}
+	modifier = {
+		pop_ethic_pacifist_attraction_mult = 0.5
+    }
+	
+	description = "civic_tooltip_mmc_pacifist_effects"
+}
